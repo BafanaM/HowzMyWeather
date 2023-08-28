@@ -5,7 +5,7 @@ import okhttp3.Response
 
 class RequestInterceptor:Interceptor {
 
-    private val apiKey: String = "705002d30fc80610a92d7d1231b4a14d"
+    private val apiKey: String = "1234"
     override fun intercept(chain: Interceptor.Chain): Response {
         val originalRequest = chain.request()
         val originalHttpUrl = originalRequest.url()
